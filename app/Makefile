@@ -5,3 +5,17 @@ run-dist:
 	./gradlew installDist
 	# Запуск исполняемого файла
 	./build/install/app/bin/app
+
+test:
+	./gradlew test
+
+report:
+	./gradlew jacocoTestReport
+
+lint:
+	./gradlew checkstyleMain
+
+build:
+	./gradlew clean build
+
+.PHONY: build

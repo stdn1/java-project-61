@@ -1,10 +1,14 @@
 plugins {
     id("java")
     application
+    jacoco
+    checkstyle
 }
 
 group = "hexlet.code"
+
 version = "1.0-SNAPSHOT"
+
 application { mainClass.set("hexlet.code.App") }
 
 repositories {
@@ -22,4 +26,8 @@ tasks.test {
 
 tasks.getByName("run", JavaExec::class) {
     standardInput = System.`in`
+}
+
+tasks.jacocoTestReport {
+    reports { xml.required.set(true) }
 }
