@@ -14,6 +14,16 @@
 ## Even Game with error
 ![EvenGameWithError](https://github.com/user-attachments/assets/9efd9a77-9d44-4d0c-a0de-fa811229b3ea)
 
+# Calculator game
+
+## Calc without error
+![CalcWithoutError](https://github.com/user-attachments/assets/139cfd91-be33-45ef-aa4a-da620e49b0fa)
+
+## Calc with error
+![WithError](https://github.com/user-attachments/assets/51007387-00d7-44b6-9e08-1d701d786fc2)
+
+
+
 
 
 
