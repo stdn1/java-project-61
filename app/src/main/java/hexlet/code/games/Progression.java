@@ -16,14 +16,19 @@ public class Progression {
         String[][] roundsData = new String[Engine.ROUNDS_COUNT][2];
 
         for (int i = 0; i < Engine.ROUNDS_COUNT; i++) {
+
             int progressionLength = Utils.getRandomInt(MIN_PROGRESSION_LENGTH, MAX_PROGRESSION_LENGTH);
             int step = Utils.getRandomInt(MIN_STEP, MAX_STEP);
             int start = Utils.getRandomInt(0, MAX_START_VALUE);
 
+
             int[] progression = generateProgression(progressionLength, start, step);
+
 
             int hiddenIndex = Utils.getRandomInt(0, progressionLength - 1);
             int hiddenValue = progression[hiddenIndex];
+            progression[hiddenIndex] = -1;
+
 
             StringBuilder question = new StringBuilder();
             for (int value : progression) {
@@ -36,11 +41,11 @@ public class Progression {
 
             roundsData[i][0] = question.toString().trim();
             roundsData[i][1] = String.valueOf(hiddenValue);
-
         }
 
         return roundsData;
     }
+
 
     private static int[] generateProgression(int length, int start, int step) {
         int[] progression = new int[length];
