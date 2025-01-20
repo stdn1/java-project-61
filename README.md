@@ -30,6 +30,18 @@
 ## GCD game with error
 ![withError](https://github.com/user-attachments/assets/a1204c06-7300-4551-a292-1916887754e9)
 
+# Prime Game
+
+## Prime game without error
+![PrimeWithout error](https://github.com/user-attachments/assets/826eb740-769a-4e43-95d6-c01305d3463f)
+
+## Prime game with
+![prime errir](https://github.com/user-attachments/assets/34e1d7b5-38ef-49fc-81d3-d006cb75023f)
+
+
+
+
+
 
 
 
