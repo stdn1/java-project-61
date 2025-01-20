@@ -22,6 +22,16 @@
 ## Calc with error
 ![WithError](https://github.com/user-attachments/assets/51007387-00d7-44b6-9e08-1d701d786fc2)
 
+# GCD game
+
+## GCD game without error
+![GCDWithOutError](https://github.com/user-attachments/assets/d6a2acc7-fb5a-486a-aa19-0d77709df119)
+
+## GCD game with error
+![withError](https://github.com/user-attachments/assets/a1204c06-7300-4551-a292-1916887754e9)
+
+
+
 
 
 
