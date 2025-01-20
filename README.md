@@ -10,7 +10,8 @@
 ![EvenGame](https://github.com/user-attachments/assets/554da696-59d9-46df-acc3-1d6ef0db35b8)
 
 # Even Game with error
-![greet](https://github.com/user-attachments/assets/8040c315-3baf-47f2-b5a2-98ae208ff7e1)
+![EvenGameWithError](https://github.com/user-attachments/assets/9efd9a77-9d44-4d0c-a0de-fa811229b3ea)
+
 
 
 
